@@ -1,0 +1,4 @@
+export COPR_LOGIN=
+export COPR_USERNAME=
+export COPR_TOKEN=
+export COPR_URL=https://copr.fedorainfracloud.org

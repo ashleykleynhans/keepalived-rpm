@@ -17,7 +17,7 @@
 
 Name: keepalived
 Summary: High Availability monitor built upon LVS, VRRP and service pollers
-Version: 2.0.20
+Version: 2.1.3
 Release: 2%{?dist}
 License: GPLv2+
 URL: http://www.keepalived.org/
@@ -155,6 +155,12 @@ fi
 %{_mandir}/man8/keepalived.8*
 
 %changelog
+* Tue Jun 30 2020 Ashley Kleynhans <ashley.kleynhans@gmail.com> - 2.1.3-1
+- Update to 2.1.3
+
+* Tue Jun 23 2020 Ashley Kleynhans <ashley.kleynhans@gmail.com> - 2.1.2-1
+- Update to 2.1.2
+
 * Wed Feb 05 2020 Hiroaki Nakamura <hnakamur@gmail.com> - 2.0.20-2
 - Disable libiptc on CentOS 6
 
